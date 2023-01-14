@@ -9,13 +9,13 @@ public class MadlibsOfTheAmazon {
 		String prompt =  "If you find yourself having to cross a piranha-infested river, here's how to do it...";
 		
 		// Get the player to enter an adjective
-
+		String adj = JOptionPane.showInputDialog("WRITE AN ADJECTIVE!");
 		// Get the player to enter a type of liquid
-
+		String liquid = JOptionPane.showInputDialog("GIVE ME A LIQUID!!!");
 		// Get the player to enter a body part
-
+		String bodypart = JOptionPane.showInputDialog("What is a body part");
 		// Get the player to enter a verb
-
+		
 		// Get the player to enter a place
 
 		// The story below has has been written as a group of Strings joined together by + signs.
