@@ -36,7 +36,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		//   The maze must be drawn using 4 different colors, one each for: START, END, BACKGROUND, and path.
 		//   Download your maze image to the computer desktop. 
 		//   Drag and drop the image into the _04_amazing_games._1_scary_maze package 
-		
+	
 		
 		//2. Change the line of code below so that it uses YOUR maze's file name
 		maze = ImageIO.read(getClass().getResource("standardMaze.png"));
@@ -57,11 +57,11 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		int mouseColor = maze.getRGB(mouseX, mouseY);	
 		
 		//4. Print the mouseColor variable (Hint: use syso)
-		
+		//System.out.println(mouseColor);
 		//5.  Run your program and move your mouse over the START COLOR. A number will be printed to the console
 		
 		
-		int startColor=0;
+		int startColor=-7617718;
 		//6. Change the value of this startColor variable to the number printed in the previous step. 
 		
 		

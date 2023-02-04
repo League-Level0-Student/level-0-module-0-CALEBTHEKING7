@@ -34,9 +34,14 @@ public class QuizGame {
 		if( code.equalsIgnoreCase("day")) {
 			userScore++;
 		}
-		code = JOptionPane.showInputDialog("How many moons does saturn have?");
 		
-		if( code.equalsIgnoreCase("83")) {
+code = JOptionPane.showInputDialog("Wich is better,Coke,or Pepsi?");
+		
+		if( code.equalsIgnoreCase("pepsi")) {
+			userScore++;
+		}
+		code = JOptionPane.showInputDialog("What is the name of the famous gore poem writer?");
+		if( code.equalsIgnoreCase("edgar allen poe")) {
 			userScore++;
 		}
 				// 2.  Ask the user a question 
