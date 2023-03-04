@@ -91,8 +91,10 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 			}
 			//13.  If the mouse is on the end color, pop up a message to tell them they won!
 			//    (you will need to get the number of the END COLOR by moving the mouse over it)
-
-					
+			if (mouseColor == endColor) {
+				JOptionPane.showMessageDialog(null, "YAY...YOU ARE ACTUALLY GOOD!");
+			}
+				
 			
 		}	
 	}
@@ -119,7 +121,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		showScaryImage("scarydude.png");
 	}
 	
-
+	
 	
 	/**********  DO NOT CHANGE THE CODE BELOW THIS LINE ***************/
 	
