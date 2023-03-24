@@ -39,21 +39,21 @@ public class DragonFight {
 			String userInput = JOptionPane.showInputDialog( "kick or punch?");
 				// 4. If they typed in "yell":
 			if( userInput.equalsIgnoreCase("punch")) {
-				playerAttack = ran.nextInt(20)+10;
+				playerAttack = ran.nextInt(20)+15;
 			}
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					  // ran.nextInt(10)
 			
 				// 5. If they typed in "kick":
 			if( userInput.equalsIgnoreCase("kick")) {
-				playerAttack = ran.nextInt(35);
+				playerAttack = ran.nextInt(40);
 			}
 					  // -- Find a random number between 0 and 25 and store it in playerAttack.
 		
 				// 6. Subtract the player attack value from the dragon's health
 			dragonHealth -= playerAttack;
 			// THE DRAGON RETALIATES
-			dragonAttack = ran.nextInt(30);
+			dragonAttack = ran.nextInt(35);
 			playerHealth -= dragonAttack;
 				// 7. Find a random number between 0 and 35 and store it in dragonAttack
 	
